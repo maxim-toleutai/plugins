@@ -247,6 +247,8 @@ class Marker {
     bool visibleParam,
     double zIndexParam,
     VoidCallback onTapParam,
+    ValueChanged<LatLng> onDragParam,
+    ValueChanged<LatLng> onDragStartParam,
     ValueChanged<LatLng> onDragEndParam,
   }) {
     return Marker(
@@ -263,6 +265,8 @@ class Marker {
       visible: visibleParam ?? visible,
       zIndex: zIndexParam ?? zIndex,
       onTap: onTapParam ?? onTap,
+      onDrag: onDragParam ?? onDrag,
+      onDragStart: onDragStartParam ?? onDragStart,
       onDragEnd: onDragEndParam ?? onDragEnd,
     );
   }
