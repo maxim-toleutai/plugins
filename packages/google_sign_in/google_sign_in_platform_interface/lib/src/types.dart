@@ -28,11 +28,11 @@ class GoogleSignInUserData {
   /// could be null.
   GoogleSignInUserData(
       {this.displayName,
-      this.email,
-      this.id,
-      this.photoUrl,
-      this.idToken,
-      this.serverAuthCode});
+        this.email,
+        this.id,
+        this.photoUrl,
+        this.idToken,
+        this.serverAuthCode});
 
   /// The display name of the signed in user.
   ///
